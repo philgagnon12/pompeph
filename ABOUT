@@ -1,0 +1,37 @@
+
+- 1 pompe ph+ ( add ph+ )
+- 1 pompe ph- ( add ph- )
+- 1 pompe run for 3 minutes every 15 minutes, getting water from bucket
+
+- 1 lighting, daily schedule on/off.
+- 2 different lighting profiles. to chose from interface
+ 18 hours on 24/7 . vegetation
+ 12/12 hours 24/7 . fleuraison ( when chose , make sure to shut down lighting 46 hours )
+ - fans that work on room temperature on/off
+
+
+
+
+- Ph ideal 6.0
+- Check sensor every 5 minutes for ph
+- Graph/View ph readings 
+
+
+
+client hardware ( pompes, lighting , etc .. )
+
+Server ( tcp )( sqlite database )
+
+
+
+client interface ( tcp )
+
+== Dashboard == 
+    - when open show lighting profiles
+    - show water temp
+    - show water ph
+    - last sign of life from ( pompe , lighting )
+    - how many days in vegetation state / how much days left for flowering
+    - temps ecouler dans le cycle lumiere   ex: 15h38 sur 18h
+    - hrs counter on light bulb
+    - show weekly remainder to change water 
